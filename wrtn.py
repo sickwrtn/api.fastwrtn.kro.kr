@@ -8,7 +8,7 @@ import ssl
 app = Flask(__name__)
 cors = CORS(app,resources={r"*": {"origins":"*"}})
 bannedIp = []
-adminIp = ["125.178.251.236"]
+adminIp = []
 db = []
 reportDB = []
 c = 0
